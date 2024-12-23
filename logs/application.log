@@ -1,0 +1,26 @@
+2024-12-23 12:56:44 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-23 12:56:44 [main] INFO  t.p.c.ExchangeRateControllerTest - Starting ExchangeRateControllerTest using Java 17.0.10 with PID 68255 (started by sergejsulga in /Users/sergejsulga/Desktop/AllInOne/Code Projects/Test Tasks/TestTaskPrivatBank)
+2024-12-23 12:56:44 [main] INFO  t.p.c.ExchangeRateControllerTest - No active profile set, falling back to 1 default profile: "default"
+2024-12-23 12:56:47 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-12-23 12:56:47 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-12-23 12:56:47 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2024-12-23 12:56:47 [main] INFO  t.p.c.ExchangeRateControllerTest - Started ExchangeRateControllerTest in 4.229 seconds (process running for 6.181)
+2024-12-23 12:56:47 [main] ERROR t.p.exception.GlobalExceptionHandler - Validation error: getHourlyDynamics.currency: Currency must be 'USD' or 'EUR'
+2024-12-23 12:56:48 [main] INFO  t.p.c.ExchangeRateController - Handling GET request for the latest rate of currency=USD
+2024-12-23 12:56:48 [main] INFO  t.p.c.ExchangeRateController - Handling GET request for the latest rate of currency=EUR
+2024-12-23 12:56:48 [main] ERROR t.p.exception.GlobalExceptionHandler - Entity not found: Records for currency EUR not found
+2024-12-23 12:56:48 [main] INFO  t.p.c.ExchangeRateController - Handling GET request for hourly dynamics of currency=USD
+2024-12-23 12:56:48 [main] INFO  t.p.c.ExchangeRateController - Handling GET request for last hour change of currency=EUR
+2024-12-23 13:04:37 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-23 13:04:37 [main] INFO  t.p.c.ExchangeRateControllerTest - Starting ExchangeRateControllerTest using Java 17.0.10 with PID 68433 (started by sergejsulga in /Users/sergejsulga/Desktop/AllInOne/Code Projects/Test Tasks/TestTaskPrivatBank)
+2024-12-23 13:04:37 [main] INFO  t.p.c.ExchangeRateControllerTest - No active profile set, falling back to 1 default profile: "default"
+2024-12-23 13:04:41 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-12-23 13:04:41 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-12-23 13:04:41 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+2024-12-23 13:04:41 [main] INFO  t.p.c.ExchangeRateControllerTest - Started ExchangeRateControllerTest in 5.109 seconds (process running for 7.491)
+2024-12-23 13:04:41 [main] ERROR t.p.exception.GlobalExceptionHandler - Validation error: getHourlyDynamics.currency: Currency must be 'USD' or 'EUR'
+2024-12-23 13:04:42 [main] INFO  t.p.c.ExchangeRateController - Handling GET request for the latest rate of currency=USD
+2024-12-23 13:04:42 [main] INFO  t.p.c.ExchangeRateController - Handling GET request for the latest rate of currency=EUR
+2024-12-23 13:04:42 [main] ERROR t.p.exception.GlobalExceptionHandler - Entity not found: Records for currency EUR not found
+2024-12-23 13:04:42 [main] INFO  t.p.c.ExchangeRateController - Handling GET request for hourly dynamics of currency=USD
+2024-12-23 13:04:42 [main] INFO  t.p.c.ExchangeRateController - Handling GET request for last hour change of currency=EUR
